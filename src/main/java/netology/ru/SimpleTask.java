@@ -1,4 +1,5 @@
 package netology.ru;
+
 public class SimpleTask extends Task {
     protected String title;
 

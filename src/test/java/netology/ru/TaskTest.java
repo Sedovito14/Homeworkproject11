@@ -18,7 +18,7 @@ public class TaskTest {
     @Test
     public void shouldFindSubtaskInEpic() {
         boolean expected = true;
-        boolean actual = epic.matches("Молоко");
+        boolean actual = epic.matches("Хлеб");
 
         Assertions.assertEquals(expected, actual);
     }
